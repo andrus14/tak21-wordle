@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    margin-top: 64px;
+}
+
+.letter {
+    width: 64px;
+    height: 64px;
+    border: 2px solid rgb(180, 180, 180);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
