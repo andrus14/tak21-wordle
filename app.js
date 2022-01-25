@@ -42,13 +42,13 @@ fetch('words.txt')
                     currentCellEl.classList.add('correct-letter');
                     console.log('õige täht, õiges kohas', letter);
                 } else if ( currentWord.includes(letter) ) {
+                    currentCellEl.classList.add('present-letter');
                     console.log('õige täht, vales kohas', letter);
+                } else {
+                    currentCellEl.classList.add('absent-letter');
                 }
-
             }
-
         }
-    
     });
 
 });
