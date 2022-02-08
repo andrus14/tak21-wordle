@@ -1,6 +1,7 @@
 const alphabet = ['A', 'B', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'Š', 'Z', 'Ž', 'T', 'U', 'V', 'Õ', 'Ä', 'Ö', 'Ü'];
 
 const corretAnswerDiv = document.querySelector('#correct-answer');
+const keyBtns = document.querySelectorAll('#keyboard button');
 
 let nextCell = [0, 0];
 let words = [];
@@ -35,6 +36,10 @@ fetch('words.txt')
                 testWord();
             }
         }
+    });
+
+    keyBtns.forEach(el => {
+        console.log(el.dataset.key);
     });
 
 });

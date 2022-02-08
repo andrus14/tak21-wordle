@@ -40,3 +40,40 @@ table {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#keyboard {
+    margin-top: 16px;
+    user-select: none;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 8px;
+    touch-action: manipulation;
+}
+
+button {
+    height: 2em;
+    width: 2em;
+    margin: 0.1em;
+    border-radius: 0.1em;
+    border: none;
+    background-color: #d3d6da;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+.half {
+    flex: 0.5;
+}
+
+.one-and-a-half {
+    flex: 1.5;
+}
