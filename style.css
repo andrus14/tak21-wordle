@@ -19,22 +19,22 @@ table {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.correct-letter {
-    background-color: #6aaa64;
+.absent-letter {
+    background-color: #86888a;
     color: white;
 }
 
 .present-letter {
     background-color: #c9b458;
     color: white;
-}
+}    
 
-.absent-letter {
-    background-color: #86888a;
+.correct-letter {
+    background-color: #6aaa64;
     color: white;
 }
 
-#correct-answer {
+#message {
     height: 36px;
     font-size: 24px;
     font-weight: bold;
